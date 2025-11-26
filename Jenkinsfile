@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // REPLACE THIS with your DockerHub username
-        DOCKER_IMAGE = "your_dockerhub_username/rollno-542-calc"
+        DOCKER_IMAGE = "sidgoswami725/rollno-542-calc"
         DOCKER_TAG = "latest"
     }
 
@@ -44,4 +44,5 @@ pipeline {
             }
         }
     }
+
 }

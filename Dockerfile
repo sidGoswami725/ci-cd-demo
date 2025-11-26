@@ -1,5 +1,5 @@
-# Use a standard Java image
-FROM openjdk:17-jdk-slim
+# Use the Eclipse Temurin image (The modern standard for Java)
+FROM eclipse-temurin:17-jdk
 
 # Set working directory inside the container
 WORKDIR /app
